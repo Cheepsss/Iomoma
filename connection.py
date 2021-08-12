@@ -11,7 +11,7 @@ class Connection():
     def __init__(self):
         self.msgFromClient = "f"
         self.bytesToSend         = str.encode(self.msgFromClient)
-        self.serverAddressPort   = ("185.185.127.92", 10001)
+        self.serverAddressPort   = ("", 10001)
         self.bufferSize          = 10000
         self.sock = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
         self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_RCVBUF, 1)
