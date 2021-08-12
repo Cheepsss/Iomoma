@@ -7,8 +7,6 @@ import sys
 import time
 
 
-# 185.185.127.92
-# 127.0.0.1
 class Connection():
     def __init__(self):
         self.msgFromClient = "f"
